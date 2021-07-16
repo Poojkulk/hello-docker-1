@@ -1,6 +1,6 @@
 // hello-docker
 
-String image    = env.JOB_NAME.split('/')[1]
+
 String registry = "poojakk123/$image"
 String tag      = "latest"
 
